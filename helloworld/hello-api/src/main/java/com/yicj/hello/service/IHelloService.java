@@ -1,6 +1,6 @@
 package com.yicj.hello.service;
 
-public interface UserService {
+public interface IHelloService {
 
     String login(String username);
 }

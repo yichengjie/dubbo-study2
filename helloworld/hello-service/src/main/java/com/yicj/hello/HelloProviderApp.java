@@ -15,6 +15,6 @@ import java.io.IOException;
 public class HelloProviderApp {
     public static void main(String[] args) throws IOException {
         SpringApplication.run(HelloProviderApp.class, args) ;
-       // System.in.read() ;
+       System.in.read() ;
     }
 }
