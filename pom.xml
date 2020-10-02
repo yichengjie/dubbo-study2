@@ -24,9 +24,7 @@
     </properties>
 
     <modules>
-		<module>hello-api</module>
-        <module>hello-service</module>
-        <module>hello-web</module>
+        <module>helloworld</module>
     </modules>
 
     <dependencyManagement>
