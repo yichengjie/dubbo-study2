@@ -1,4 +1,4 @@
-package com.yicj.study.service;
+package com.yicj.hello.service;
 
 public interface UserService {
 

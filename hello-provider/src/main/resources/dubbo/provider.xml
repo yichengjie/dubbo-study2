@@ -5,9 +5,9 @@
        http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
     <dubbo:application name="hello-provider"/>
-    <dubbo:registry address="zookeeper://192.168.221.129:2181" timeout="300000"/>
+    <dubbo:registry address="zookeeper://192.168.221.128:2181" timeout="100000"/>
     <dubbo:protocol name="dubbo" port="20890"/>
 
-    <bean id="userService" class="com.yicj.study.service.impl.UserServiceImpl"/>
-    <dubbo:service interface="com.yicj.study.service.UserService" ref="userService"/>
+    <bean id="userService" class="com.yicj.hello.service.impl.UserServiceImpl"/>
+    <dubbo:service interface="com.yicj.hello.service.UserService" ref="userService"/>
 </beans>

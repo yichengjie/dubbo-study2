@@ -1,6 +1,6 @@
-package com.yicj.study.service.impl;
+package com.yicj.hello.service.impl;
 
-import com.yicj.study.service.UserService;
+import com.yicj.hello.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboService;
 
